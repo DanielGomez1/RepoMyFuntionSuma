@@ -22,12 +22,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Listar Ruta
-        run: pwd
-        
-      - name: Listar Archivos
-        run: ls -a
         
       - name: Comprimir Recurso
         run: zip -r myFuntionSuma-de3b6700-ac04-47de-bafb-435c82056878.zip /home/runner/work/RepoMyFuntionSuma/RepoMyFuntionSuma/index.js
