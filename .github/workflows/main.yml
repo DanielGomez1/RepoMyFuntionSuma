@@ -44,5 +44,5 @@ jobs:
         run: |
           aws lambda update-function-code \
           --function-name "arn:aws:lambda:us-east-2:389195200313:function:myFuntionSuma" \
-          --zip-file "myFuntionSuma-de3b6700-ac04-47de-bafb-435c82056878.zip" \
+          --zip-file "fileb://./myFuntionSuma-de3b6700-ac04-47de-bafb-435c82056878.zip" \
           --region "us-east-2"
