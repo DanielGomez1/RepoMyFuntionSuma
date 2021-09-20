@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v2
         
       - name: Comprimir Recurso
-        run: zip -r myFuntionSuma-de3b6700-ac04-47de-bafb-435c82056878.zip /home/runner/work/RepoMyFuntionSuma/RepoMyFuntionSuma/index.js
+        run: zip -r myFuntionSuma-de3b6700-ac04-47de-bafb-435c82056878.zip index.js
         
       - name: Version AWS
         run: aws --version
